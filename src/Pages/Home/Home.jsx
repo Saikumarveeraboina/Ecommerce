@@ -15,7 +15,6 @@ function Home() {
         }
         getProducts();
     }, [])
-
     return (
         <>
             <Carousel />
