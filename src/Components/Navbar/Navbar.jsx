@@ -32,4 +32,5 @@ function StoreNavbar() {
     </Navbar>
   );
 }
+
 export default StoreNavbar;
