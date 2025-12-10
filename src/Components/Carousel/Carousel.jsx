@@ -13,7 +13,6 @@ function Carousel() {
     adaptiveHeight: true,
     autoplay: true,
     speed: 500  };
-
   return (
     <div className="slider-container">
       <Slider {...settings}>
@@ -27,5 +26,4 @@ function Carousel() {
     </div>
   );
 }
-
 export default Carousel;
