@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import ProductCarousel from '../../Components/ProductCarousel/ProductCarousel';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-
 function Product() {
     const [product, setProduct] = useState({})
     const { id } = useParams();
